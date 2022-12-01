@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Con mucho gusto</title>
 </head>
 <body class="body">
@@ -41,7 +41,7 @@
         <div>
             <h3 class="tituloTres">Menú de comidas</h3>  
         </div>  
-        <div class="flexContentDos">
+        <div class="flexContentDos" data-aos="fade-up" data-aos-duration="3000">
             <div class="box">
                 <h3 class="tituloCuatro">Pizzas</h3>
                 <img src="./../assets/images/pizzas.jpg" alt="">
@@ -117,5 +117,9 @@
             </li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

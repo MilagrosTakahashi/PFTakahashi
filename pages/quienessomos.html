@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Con mucho gusto</title>
 </head>
 <body class="body">
@@ -41,7 +41,7 @@
 
     <main class="mainContent">
         <h3 class="tituloTres">Quiénes somos</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur possimus nulla amet deserunt a accusantium inventore iste ducimus est officiis dolores neque natus, rem ipsam error ratione quaerat maiores modi.
+        <p data-aos="fade-up" data-aos-duration="3000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur possimus nulla amet deserunt a accusantium inventore iste ducimus est officiis dolores neque natus, rem ipsam error ratione quaerat maiores modi.
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam a odit saepe nobis fugiat illo amet voluptate ab hic officia suscipit repellendus quam, deleniti adipisci vero culpa officiis. Doloremque, molestias!
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, optio modi, sed dignissimos repellat debitis, ipsa animi repudiandae beatae dolores eligendi eum accusantium molestias voluptatibus quasi explicabo aliquam reiciendis totam.</p> 
     </main>
@@ -78,5 +78,9 @@
             </li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
