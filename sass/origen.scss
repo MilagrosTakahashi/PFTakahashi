@@ -14,6 +14,7 @@
     background-image: url($bg-img-path);
     background-repeat: repeat-y;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .header{
@@ -106,13 +107,15 @@
     .box{
         width: $ancho;
         background-color: map-get($colores, marron-claro);
+        background-color: #b08968;
         color: white;
         padding: 30px;
         margin: 30px;
         border-radius: 20px;
+        box-shadow: 3px 3px 3px #917055;
         transition: all 0.5s;
         &:hover{
-            width: 430px;
+            transform: scale(1.02);
         }
         p{
             color: white;
@@ -145,7 +148,8 @@
     .listaFooter{
         list-style: none;
         display: flex;
-        align-items: flex-end;
+        justify-content: center;
+        /* align-items: flex-end; */
         gap: 5vw;
         .imgContacto{
             width: 25px;
@@ -370,22 +374,22 @@
         padding-bottom: 10px;
     }
 
-    .footer{
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 0;
-        .listaFooter{
-            justify-content: center;
-            padding: 1rem;
-        }
-    }
-
     .flexContentDos{
         .box{
             margin: 10px;
             .tituloCuatro{
                 font-size: 1.5rem;
             }
+            }
+        }
+
+        .footer{
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 0;
+
+            .listaFooter{
+                padding: 1rem;
             }
         }
     }
@@ -405,8 +409,10 @@
         flex-wrap: nowrap;
         gap: 5vh;
         .box{
-            width: 80%;
             transition: none;
+            &:hover{
+                width: 90%;
+            }
         }
     }
 

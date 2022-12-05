@@ -11,9 +11,10 @@
   color: black; }
 
 .body {
-  background-image: url("https://4.bp.blogspot.com/-M7sX37jnp6o/UgAxmy_zJ-I/AAAAAAAAYUE/kT8vAjhp6o4/w1200-h630-p-k-no-nu/Empanadas+(1).jpg");
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/133/161/non_2x/grunge-brown-paper-texture-vector.jpg");
   background-repeat: repeat-y;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 .header {
   color: black;
@@ -99,13 +100,15 @@
   .flexContentDos .box {
     width: 400px;
     background-color: #b87e3b;
+    background-color: #b08968;
     color: white;
     padding: 30px;
     margin: 30px;
     border-radius: 20px;
+    box-shadow: 3px 3px 3px #917055;
     transition: all 0.5s; }
     .flexContentDos .box:hover {
-      width: 430px; }
+      transform: scale(1.02); }
     .flexContentDos .box p {
       color: white; }
     .flexContentDos .box .tituloCuatro {
@@ -131,7 +134,8 @@
   .footer .listaFooter {
     list-style: none;
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
+    /* align-items: flex-end; */
     gap: 5vw; }
     .footer .listaFooter .imgContacto {
       width: 25px; }
@@ -328,17 +332,16 @@
   .clicked {
     border-bottom: 3px solid;
     padding-bottom: 10px; }
+  .flexContentDos .box {
+    margin: 10px; }
+    .flexContentDos .box .tituloCuatro {
+      font-size: 1.5rem; }
   .footer {
     display: flex;
     flex-direction: column-reverse;
     gap: 0; }
     .footer .listaFooter {
-      justify-content: center;
-      padding: 1rem; }
-  .flexContentDos .box {
-    margin: 10px; }
-    .flexContentDos .box .tituloCuatro {
-      font-size: 1.5rem; } }
+      padding: 1rem; } }
 
 @media screen and (max-width: 600px) {
   .imgContainer {
@@ -355,8 +358,9 @@
     flex-wrap: nowrap;
     gap: 5vh; }
     .flexContentDos .box {
-      width: 80%;
       transition: none; }
+      .flexContentDos .box:hover {
+        width: 90%; }
   .div {
     display: flex;
     flex-direction: column; }
