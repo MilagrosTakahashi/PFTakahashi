@@ -115,10 +115,7 @@
       color: white;
       text-align: center;
       font-size: 2rem;
-      margin-bottom: 3vh;
-      transition: all 0.5s; }
-      .flexContentDos .box .tituloCuatro:hover {
-        font-size: 2.3rem; }
+      margin-bottom: 3vh; }
     .flexContentDos .box img {
       width: 100%;
       border-radius: 10px; }
