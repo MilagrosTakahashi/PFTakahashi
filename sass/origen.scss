@@ -411,7 +411,7 @@
         .box{
             transition: none;
             &:hover{
-                width: 90%;
+                transform: scale(1);
             }
         }
     }

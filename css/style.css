@@ -360,7 +360,7 @@
     .flexContentDos .box {
       transition: none; }
       .flexContentDos .box:hover {
-        width: 90%; }
+        transform: scale(1); }
   .div {
     display: flex;
     flex-direction: column; }
