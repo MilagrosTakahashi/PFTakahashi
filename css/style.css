@@ -344,6 +344,8 @@
       padding: 1rem; } }
 
 @media screen and (max-width: 600px) {
+  .mainContent {
+    padding: 5px; }
   .imgContainer {
     display: flex;
     flex-direction: column;
@@ -358,7 +360,8 @@
     flex-wrap: nowrap;
     gap: 5vh; }
     .flexContentDos .box {
-      transition: none; }
+      transition: none;
+      width: 90%; }
       .flexContentDos .box:hover {
         transform: scale(1); }
   .div {
