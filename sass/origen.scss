@@ -391,7 +391,10 @@
 
 @media screen and (max-width: 600px){
     .mainContent{
-        padding: 5px;
+        padding: 10px;
+        .tituloTres{
+            padding-bottom: 20px;
+        }
     }
 
     .imgContainer{
