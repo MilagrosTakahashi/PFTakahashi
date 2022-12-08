@@ -1,7 +1,3 @@
-/* extend */
-.dosRem {
-  font-size: 2rem; }
-
 * {
   padding: 0;
   margin: 0;
@@ -99,7 +95,6 @@
   flex-wrap: wrap; }
   .flexContentDos .box {
     width: 400px;
-    background-color: #b87e3b;
     background-color: #b08968;
     color: white;
     padding: 30px;
@@ -164,12 +159,13 @@
     justify-content: center;
     gap: 5vw; }
     .formulario .btnContainer .submitDos {
-      border: #805626 solid 1px;
+      border: #524031 solid 1px;
       padding: 10px;
       border-radius: 10px;
       width: 150px;
       color: white;
-      background-color: #9b682e; }
+      /* background-color: rgb(155, 104, 46) */
+      background-color: #917055; }
 
 .imgContainer {
   display: flex;
@@ -211,7 +207,7 @@
 
 .comentariosDos {
   width: 352px;
-  background-color: #b87e3b;
+  background-color: #b08968;
   border-radius: 10px;
   padding: 10px; }
   .comentariosDos p {
@@ -221,9 +217,9 @@
     color: white;
     height: 90px;
     overflow-y: scroll;
-    background-color: #9b682e;
+    background-color: #b08968;
     padding: 5px;
-    border: #805626 solid 1px; }
+    border: #917055 solid 1px; }
   .comentariosDos .info {
     display: flex;
     justify-content: space-between; }
@@ -248,7 +244,7 @@
     font-size: 1.1rem; }
 
 .commentForm {
-  background-color: #b87e3b;
+  background-color: #b08968;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -261,28 +257,30 @@
   .commentForm label {
     color: white; }
   .commentForm .submit {
-    border: #805626 solid 1px;
+    border: #524031 solid 1px;
     padding: 10px;
     border-radius: 10px;
     width: 150px;
     color: white;
-    background-color: #9b682e;
+    /* background-color: rgb(155, 104, 46) */
+    background-color: #917055;
     margin-top: 20px; }
   .commentForm .inputDos {
-    border: #805626 solid 1px;
+    border: #524031 solid 1px;
     padding: 10px;
     border-radius: 10px;
     width: 80%;
     color: white;
-    background-color: #9b682e;
+    /* background-color: rgb(155, 104, 46) */
+    background-color: #917055;
     border: none;
-    border-bottom: #805626 solid 1px; }
+    border-bottom: #80624b solid 1px; }
     .commentForm .inputDos::placeholder {
       color: rgba(255, 254, 254, 0.575); }
 
 .mapa {
   grid-area: encontranos;
-  background-color: #b87e3b;
+  background-color: #b08968;
   border-radius: 10px;
   margin-top: 2rem;
   display: flex;

@@ -106,13 +106,12 @@
     flex-wrap: wrap;
     .box{
         width: $ancho;
-        background-color: map-get($colores, marron-claro);
-        background-color: #b08968;
+        background-color: map-get($colores, marron);
         color: white;
         padding: 30px;
         margin: 30px;
         border-radius: 20px;
-        box-shadow: 3px 3px 3px #917055;
+        box-shadow: 3px 3px 3px map-get($colores, marron-oscuro)/* #917055 */;
         transition: all 0.5s;
         &:hover{
             transform: scale(1.02);
@@ -236,7 +235,7 @@
 
 .comentariosDos{
     width: ($ancho)-48;
-    background-color: map-get($colores, marron-claro);
+    background-color: map-get($colores, marron);
     border-radius: 10px;
     padding: 10px;
     p{
@@ -287,7 +286,7 @@
     label{
         color: white;
     }
-    background-color: map-get($colores, marron-claro);
+    background-color: map-get($colores, marron);
     border-radius: 10px;
     @include flex (column, center, center);
     gap: 3vh;
@@ -298,7 +297,7 @@
     .inputDos{
         @include input-base($width: 80%, $bg-color: marron);
         border: none;
-        border-bottom: rgb(128, 86, 38) solid 1px;
+        border-bottom: #80624b solid 1px;
         &::placeholder{
             color: rgba(255, 254, 254, 0.575);
         }
@@ -307,7 +306,7 @@
 
 .mapa{
     grid-area: encontranos;
-    background-color: map-get($colores, marron-claro);
+    background-color: map-get($colores, marron);
     border-radius: 10px;
     margin-top: 2rem;
     display: flex;
