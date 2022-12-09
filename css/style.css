@@ -105,7 +105,8 @@
     .flexContentDos .box:hover {
       transform: scale(1.02); }
     .flexContentDos .box p {
-      color: white; }
+      color: white;
+      padding-top: 2vh; }
     .flexContentDos .box .tituloCuatro {
       color: white;
       text-align: center;
